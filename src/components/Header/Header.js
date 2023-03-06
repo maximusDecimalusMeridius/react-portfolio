@@ -1,12 +1,13 @@
 import React from 'react';
 import Navigation from "../Navigation/Navigation";
-import "./style.css";
+import "./Header.css";
 
-function Header(props){
+function Header({setPage}){
+
     return(
         <header>
-            <div class="header-title">Andy Gaudy</div>
-            <Navigation setPage={props.setPage}/>
+            <div className="header-title">Andy Gaudy</div>
+            <Navigation setPage={setPage}/>
         </header>
     );
 };

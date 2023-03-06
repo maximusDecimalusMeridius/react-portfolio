@@ -6,23 +6,23 @@ import './App.css';
 
 function App() {
   
-  let [page, setPage] = useState("about-me");
+  let [page, setPage] = useState("projects");
 
   function renderPage(){
     if(page === "about-me"){
       return(
-        <div>About Me</div>
+        <div>About-me</div>
       )
     } else if (page === "projects") {
       return(
-        <div>Projects</div>
+        <Project />
       )
     }
   }
 
   return (
     <div className="App">
-      <Header setPage={setPage} />
+      <Header setPage={setPage}/>
       {renderPage()}
       <Footer />
     </div>
