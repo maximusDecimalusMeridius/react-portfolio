@@ -1,10 +1,14 @@
-
+import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
+import Project from "./components/Project/Project";
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      Placeholder Text
+      <Header />
+      <Project />
+      <Footer />
     </div>
   );
 }
