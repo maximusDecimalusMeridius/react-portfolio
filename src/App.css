@@ -76,7 +76,7 @@ body {
 
 .aboutMeContainer {
     width: 95%;
-    min-height: 400px;
+    min-height: 300px;
     height: calc(100vh - 150px);
     background-color: var(--backgroundColor);
     color: white;

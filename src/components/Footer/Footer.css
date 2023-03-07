@@ -4,3 +4,9 @@ footer {
     background: var(--amaranth-red);
     box-shadow: 0px -2px 5px gray;
 }
+
+.logo-pic {
+    width: 25px;
+    height: 25px;
+    margin: 20px;
+}
