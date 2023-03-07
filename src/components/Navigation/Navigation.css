@@ -1,8 +1,20 @@
 .navbar{
+    width: 350px;
     list-style-type: none;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 10px;
+}
+
+.navbar-item {
+    width: 25%;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: all .1s ease-out;
+}
+
+.navbar-item:first-child {
+    font-weight: bold;
 }

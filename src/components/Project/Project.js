@@ -4,7 +4,7 @@ import "./Project.css";
 function Project(){
     
     return(
-        <div class="projectContainer">Projects</div>
+        <div className="projectContainer">Projects</div>
     );
 };
 
