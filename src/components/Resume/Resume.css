@@ -8,6 +8,10 @@
     overflow: auto;
 }
 
+.resumeLink:visited {
+    color: red;
+}
+
 @media (width < 650px) {
     .jobContainer{
         height: calc(100vh - 100px);

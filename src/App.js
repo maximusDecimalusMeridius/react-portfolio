@@ -32,10 +32,13 @@ function App() {
           </div>
           <div className="aboutMeContent">
             <h2>About Me</h2>
-              <div className="slider"></div>
-              <span>
-                A leader with a diverse background in delivering individual excellence, leading small-to-mid sized teams, and a deep passion in disruptive technologies such as AI/ML, AR/VR, AV, and robotics. Whether serving as an individual contributor or manager, I prioritize the needs of others to drive efficiency and productivity at scale, magnifying impact while developing others in line with their career goals.
-              </span>
+            <div className="slider"></div>
+            <span>
+              A leader with a diverse background in delivering individual excellence, leading small-to-mid sized teams, and a deep passion in disruptive technologies such as AI/ML, AR/VR, AV, and robotics. Whether serving as an individual contributor or manager, I prioritize the needs of others to drive efficiency and productivity at scale, magnifying impact while developing others in line with their career goals.
+            </span>
+            <br /><br />
+            <a href="https://www.github.com/maximusDecimalusMeridius"><p>GitHub</p></a>
+            <a href="https://www.linkedin.com/in/the-recruiter-that-is-technical"><p>LinkedIn</p></a>
             <h3>Background</h3>
             <ul className="backgroundList">
               <li className="backgroundItem">Full-stack Developer (HTML, CSS, JS, React, MySQL, MongoDB) - Entry Level</li>
