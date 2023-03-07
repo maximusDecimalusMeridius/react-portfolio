@@ -2,6 +2,7 @@ import React, {useState} from "react";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import Project from "./components/Project/Project";
+import Resume from "./components/Resume/Resume";
 import './App.css';
 
 function App() {
@@ -17,13 +18,17 @@ function App() {
       return(
         <Project />
       )
+    } else if (page === "resume") {
+      return(
+        <Resume />
+      )
     }
   }
 
   return (
     <div className="App">
       <Header setPage={setPage}/>
-      {renderPage()}
+        {renderPage()}
       <Footer />
     </div>
   );
