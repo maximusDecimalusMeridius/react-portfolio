@@ -1,26 +1,30 @@
-import React from 'react';
+import React, {useState} from 'react';
 import "./Navigation.css";
 
 function Navigation({page, setPage}){
     
-    const navbarItems = document.querySelectorAll(".navbar-item");  
+
+    const [lastClicked, setLastClicked] = useState("about-me")
 
     function highlightAndLoad(event) {
-
-        for(let i = 0; i < navbarItems.length; i++){
-            navbarItems[i].style.fontWeight = "normal";
-            navbarItems[i].style.transform = "scale(1)";
-            console.log(i);
-        }
-
+        document.getElementById(lastClicked).style.fontWeight = "normal";
+        document.getElementById(lastClicked).style.transform = "scale(1)";
+        setLastClicked(event.target.id);
+        setPage(event.target.id);
         event.target.style.fontWeight = "bold";
         event.target.style.transform = "scale(1.2)";
-        setPage(event.target.id)
+    }
+
+    const loadStyle = {
+        listItem: {
+            fontWeight: "bold",
+            transform: "scale(1.2)"
+        }
     }
 
     return(
         <ul className="navbar">
-            <li className="navbar-item" id="about-me" onClick={highlightAndLoad}>About Me</li>
+            <li className="navbar-item" id="about-me" style={loadStyle.listItem} onClick={highlightAndLoad}>About Me</li>
             <li className="navbar-item" id="projects" onClick={highlightAndLoad}>Portfolio</li>
             <li className="navbar-item" id="contact-me" onClick={highlightAndLoad}>Contact Me</li>
             <li className="navbar-item" id="resume" onClick={highlightAndLoad}>Resume</li>

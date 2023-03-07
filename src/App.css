@@ -135,6 +135,8 @@ body {
   list-style-position: inside;
   border: 2px solid black;
   border-radius: 50px;
+  background: var(--amaranth-red);
+  color: white;
 }
 
 .contactMeContainer {

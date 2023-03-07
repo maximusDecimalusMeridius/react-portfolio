@@ -16,6 +16,7 @@ function App() {
           <div className="profilePicture"></div>
           <div className="aboutMeContent">
             <h2>About Me</h2>
+              <div className="slider"></div>
               <span>
                 A leader with a diverse background in delivering individual excellence, leading small-to-mid sized teams, and a deep passion in disruptive technologies such as AI/ML, AR/VR, AV, and robotics. Whether serving as an individual contributor or manager, I prioritize the needs of others to drive efficiency and productivity at scale, magnifying impact while developing others in line with their career goals.
               </span>
