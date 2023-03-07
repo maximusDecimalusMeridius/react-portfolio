@@ -29,7 +29,7 @@ export default function JobDescription(props) {
         const jobDuties = item.jobDescription.map((value, index) => <li key={crypto.randomUUID()}>{value}</li>)
 
         return(
-            <div>
+            <div key={crypto.randomUUID()}>
                 <div className="jobTitle noselect" onMouseDown={toggleShow}>
                     <span className="role">{item.title}</span>
                 </div>

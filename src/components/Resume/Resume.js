@@ -8,6 +8,7 @@ export default function Resume() {
     const jobDescriptions = jobsArray.map(item => {
         return(
             <JobDescription 
+                key = {crypto.randomUUID()}
                 title = {item.title}
                 logo = {item.logo}
                 dates = {item.dates}
