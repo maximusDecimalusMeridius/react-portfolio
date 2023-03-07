@@ -50,6 +50,7 @@ function VertProject(){
                                 <li className="fact"><span className="firstWord">Description:</span> Full-stack application to manage roommates, events, tasks, and "You-Owe-Mes"</li>
                                 <li className="fact"><span className="firstWord">Tech:</span> HTML/CSS/JS/Express/Node.js/MySQL</li>
                                 <li className="fact"><span className="firstWord">Learnings:</span> ERD development and implementation, signup/login auth, npm packages, project management</li>
+                                <li><a href="https://roomease.herokuapp.com" target="_blank" rel="noreferrer">Live Site</a> | <a href="https://www.github.com/maximusDecimalusMeridius/roomease" target="_blank" rel="noreferrer">GitHub</a></li>
                             </ul>
                         </div>
                         <img className="menuPic" src={roomeasePic} alt="project thumbnail"/>
@@ -63,6 +64,7 @@ function VertProject(){
                                 <li className="fact"><span className="firstWord">Description:</span> Superhero multi-track card game with randomization and infant AI</li>
                                 <li className="fact"><span className="firstWord">Tech:</span> HTML/CSS/JS/Materialize CSS & jQuery</li>
                                 <li className="fact"><span className="firstWord">Learnings:</span> API fetch requests, local storage, game design, event listeners & animations</li>
+                                <li><a href="https://maximusdecimalusmeridius.github.io/git-good/arena/" target="_blank" rel="noreferrer">Live Site</a> | <a href="https://www.github.com/maximusDecimalusMeridius/git-good" target="_blank" rel="noreferrer">GitHub</a></li>
                             </ul>
                         </div>
                         <img className="menuPic" src={superheroPic} alt="project thumbnail"/>
@@ -76,6 +78,7 @@ function VertProject(){
                                 <li className="fact"><span className="firstWord">Description:</span> Code Quiz Game</li>
                                 <li className="fact"><span className="firstWord">Tech:</span> HTML/CSS/JS</li>
                                 <li className="fact"><span className="firstWord">Learnings:</span> localStorage, JS event listeners, managing data in arrays</li>
+                                <li><a href="https://maximusdecimalusmeridius.github.io/my-quiz-game" target="_blank" rel="noreferrer">Live Site</a> | <a href="https://www.github.com/maximusDecimalusMeridius/my-quiz-game" target="_blank" rel="noreferrer">GitHub</a></li>
                             </ul>
                         </div>
                         <img className="menuPic" src={quizPic} alt="project thumbnail"/>
@@ -89,6 +92,7 @@ function VertProject(){
                                 <li className="fact"><span className="firstWord">Description:</span> A single-page vanilla JS application displaying code snippets</li>
                                 <li className="fact"><span className="firstWord">Tech:</span> HTML/CSS/JS</li>
                                 <li className="fact"><span className="firstWord">Learnings:</span> HTML layout, JS event listeners, CSS styling</li>
+                                <li><a href="https://maximusdecimalusmeridius.github.io/snippet-cheatsheet" target="_blank" rel="noreferrer">Live Site</a> | <a href="https://www.github.com/maximusDecimalusMeridius/snippet-cheatsheet" target="_blank" rel="noreferrer">GitHub</a></li>
                             </ul>
                         </div>
                         <img className="menuPic" src={codePic} alt="project thumbnail"/>
@@ -102,6 +106,7 @@ function VertProject(){
                                 <li className="fact"><span className="firstWord">Description:</span> A single-page weather tracking app that uses API fetch requests</li>
                                 <li className="fact"><span className="firstWord">Tech:</span> HTML/CSS/JS/APIs</li>
                                 <li className="fact"><span className="firstWord">Learnings:</span> Mobile-first design, API fetch requests, page layout & formatting</li>
+                                <li><a href="https://maximusdecimalusmeridius.github.io/weather-tracker" target="_blank" rel="noreferrer">Live Site</a> | <a href="https://www.github.com/maximusDecimalusMeridius/weather-tracker" target="_blank" rel="noreferrer">GitHub</a></li>
                             </ul>
                         </div>
                         <img className="menuPic" src={weatherPic} alt="project thumbnail"/>
@@ -115,6 +120,7 @@ function VertProject(){
                                 <li className="fact"><span className="firstWord">Description:</span> Full-stack blog application that allows users to create blog posts and comment on others' posts</li>
                                 <li className="fact"><span className="firstWord">Tech:</span> HTML/CSS/JS/Express/Node.js/MySQL</li>
                                 <li className="fact"><span className="firstWord">Learnings:</span> ERD design and joins, MVC model & handlebars, sessions, sign-up and login auth</li>
+                                <li><a href="https://blogzzz.herokuapp.com" target="_blank" rel="noreferrer">Live Site</a> | <a href="https://www.github.com/maximusDecimalusMeridius/blog-app" target="_blank" rel="noreferrer">GitHub</a></li>
                             </ul>
                         </div>
                         <img className="menuPic" src={blogPic} alt="project thumbnail"/>
