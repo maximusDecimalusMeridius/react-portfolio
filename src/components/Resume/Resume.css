@@ -1,6 +1,6 @@
 .jobContainer {
     width: 90%;
-    min-height: 400px;
+    min-height: 200px;
     height: calc(100vh - 150px);
     background-color: var(--backgroundColor);
     color: white;
@@ -8,3 +8,8 @@
     overflow: auto;
 }
 
+@media (width < 650px) {
+    .jobContainer{
+        height: calc(100vh - 150px);
+    }
+}

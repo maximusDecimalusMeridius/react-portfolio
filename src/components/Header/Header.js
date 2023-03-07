@@ -6,7 +6,7 @@ function Header({page, setPage}){
 
     return(
         <header>
-            <h1 className="header-title">Andy Gaudy's Portfolio</h1>
+            <h1 className="header-title noselect">Andy Gaudy's Portfolio</h1>
             <Navigation page={page} setPage={setPage}/>
         </header>
     );

@@ -24,10 +24,10 @@ function Navigation({page, setPage}){
 
     return(
         <ul className="navbar">
-            <li className="navbar-item" id="about-me" style={loadStyle.listItem} onClick={highlightAndLoad}>About Me</li>
-            <li className="navbar-item" id="projects" onClick={highlightAndLoad}>Portfolio</li>
-            <li className="navbar-item" id="contact-me" onClick={highlightAndLoad}>Contact</li>
-            <li className="navbar-item" id="resume" onClick={highlightAndLoad}>Resume</li>
+            <li className="navbar-item noselect" id="about-me" style={loadStyle.listItem} onClick={highlightAndLoad}>About Me</li>
+            <li className="navbar-item noselect" id="projects" onClick={highlightAndLoad}>Portfolio</li>
+            <li className="navbar-item noselect" id="contact-me" onClick={highlightAndLoad}>Contact</li>
+            <li className="navbar-item noselect" id="resume" onClick={highlightAndLoad}>Resume</li>
         </ul>
     );
 };

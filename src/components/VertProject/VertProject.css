@@ -1,6 +1,6 @@
 .projectContainer {
     width: 100%;
-    min-height: 400px;
+    min-height: 200px;
     height: calc(100vh - 150px);
     background-color: var(--backgroundColor);
     color: white;
@@ -139,6 +139,12 @@
   }
 
   .facts {
-    bottom: 10%;
+    bottom: 10px;
+  }
+}
+
+@media (width < 650px){
+  .projectContainer{
+    height: calc(100vh - 100px);
   }
 }
