@@ -21,6 +21,14 @@ function App() {
        We only want the listener to be added once */
   }, [])
 
+  function submitMessage(event) {
+    event.preventDefault();
+    console.log(event);
+    alert("Message sent!")
+    document.getElementById("email").value = "";
+    document.getElementById("message").value = "";
+  }
+
   function renderPage(){
     if(page === "about-me"){
       return(
@@ -53,7 +61,19 @@ function App() {
       )
     } else if (page === "contact-me") {
       return(
-        <div className="contactMeContainer">About-me</div>
+        <div className="contactMeContainer">
+          <form className="contactForm" onSubmit={submitMessage}>
+            <div className="formTopRow">
+              <label for="email">Email:</label>
+              <input type="email" name="email" id="email" placeholder="youremail@address.com"></input>
+            </div>
+            <div className="formBottomRow">
+              <label for="message">Message:</label>
+              <textarea name="message" id="message" placeholder="Please leave a message!"></textarea>
+            </div>
+            <button>Submit</button>
+          </form>
+        </div>
       )
     } else if (page === "resume") {
       return(

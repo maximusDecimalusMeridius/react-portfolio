@@ -26,7 +26,7 @@ function Navigation({page, setPage}){
         <ul className="navbar">
             <li className="navbar-item" id="about-me" style={loadStyle.listItem} onClick={highlightAndLoad}>About Me</li>
             <li className="navbar-item" id="projects" onClick={highlightAndLoad}>Portfolio</li>
-            <li className="navbar-item" id="contact-me" onClick={highlightAndLoad}>Contact Me</li>
+            <li className="navbar-item" id="contact-me" onClick={highlightAndLoad}>Contact</li>
             <li className="navbar-item" id="resume" onClick={highlightAndLoad}>Resume</li>
         </ul>
     );

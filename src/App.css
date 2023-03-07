@@ -149,6 +149,20 @@ body {
     overflow: auto;
 }
 
+.contactForm {
+  width: 60%;
+  margin: 0 auto;
+  transition: all .5s ease-out;
+}
+
+.contactForm div {
+  width: 100%;
+}
+
+#email, #message {
+  width: 100%;
+}
+
 @media (width < 600px) {
   .aboutMeContainer {
       flex-direction: column;
@@ -164,5 +178,9 @@ body {
 
   .aboutMeContent {
     width: 95%;  
+  }
+
+  .contactForm {
+    width: 100%;
   }
 }
