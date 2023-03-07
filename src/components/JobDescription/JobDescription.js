@@ -26,7 +26,7 @@ export default function JobDescription(props) {
     // Callback function mapping over each role to create bulletized job duties
     const roles = props.roles.map(item => {
 
-        const jobDuties = item.jobDescription.map(value => <li key={value}>{value}</li>)
+        const jobDuties = item.jobDescription.map((value, index) => <li key={crypto.randomUUID()}>{value}</li>)
 
         return(
             <div>

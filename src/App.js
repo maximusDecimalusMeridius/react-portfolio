@@ -44,7 +44,7 @@ function App() {
               </span>
             <h3>Background</h3>
             <ul className="backgroundList">
-              <li className="backgroundItem">Full-stack Developer (HTML/CSS/JS/React/MySQL/MongoDB) - Entry Level</li>
+              <li className="backgroundItem">Full-stack Developer (HTML, CSS, JS, React, MySQL, MongoDB) - Entry Level</li>
               <li className="backgroundItem">Staff-level Tech Recruiter - 11 years</li>
               <li className="backgroundItem">Global/Remote Project Management - 3 years</li>
               <li className="backgroundItem">Program Management - 6 years</li>
