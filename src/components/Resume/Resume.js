@@ -20,7 +20,7 @@ export default function Resume() {
 
     return(
         <div className="jobContainer">
-            <a className="resumeLink" href={resume} target="none" download="andys-resume.pdf">Click to Download!</a>
+            <a className="resumeLink" href={resume} target="none" download="andys-resume.pdf">Click to download my resume</a>
             {jobDescriptions}
         </div>
     )

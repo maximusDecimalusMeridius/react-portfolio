@@ -6,7 +6,10 @@ header {
     justify-content: space-between;
     align-items: center;
     position: sticky;
-    background: var(--amaranth-red);
+    background: hsla(356, 100%, 19%, 1);
+    background: linear-gradient(45deg, hsla(356, 100%, 19%, 1) 0%, hsla(356, 65%, 51%, 1) 100%);
+    background: -moz-linear-gradient(45deg, hsla(356, 100%, 19%, 1) 0%, hsla(356, 65%, 51%, 1) 100%);
+    background: -webkit-linear-gradient(45deg, hsla(356, 100%, 19%, 1) 0%, hsla(356, 65%, 51%, 1) 100%);
     box-shadow: 0px 2px 5px gray;
 }
 

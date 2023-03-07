@@ -40,12 +40,12 @@ function VertProject(){
 }
 
     return(
-        <div className="projectContainer">
+        <div className="vertProjectContainer">
             <div className="vert-menu">
                 <div className="vert-card grow" id="card-1" onClick={handleClick}>
                     <div className="title hideNode">1</div>
-                    <div className="content showNode fadeInNode">
-                        <div className="facts">
+                    <div className="vertContent showNode fadeInNode">
+                        <div className="vertFacts">
                             <ul className="factsList">
                                 <li className="fact"><span className="firstWord">Description:</span> Full-stack application to manage roommates, events, tasks, and "You-Owe-Mes"</li>
                                 <li className="fact"><span className="firstWord">Tech:</span> HTML/CSS/JS/Express/Node.js/MySQL</li>
@@ -58,8 +58,8 @@ function VertProject(){
                 </div>
                 <div className="vert-card" id="card-2" onClick={handleClick}>
                     <div className="title">2</div>
-                    <div className="content">
-                    <div className="facts">
+                    <div className="vertContent">
+                    <div className="vertFacts">
                             <ul className="factsList">
                                 <li className="fact"><span className="firstWord">Description:</span> Superhero multi-track card game with randomization and infant AI</li>
                                 <li className="fact"><span className="firstWord">Tech:</span> HTML/CSS/JS/Materialize CSS & jQuery</li>
@@ -72,8 +72,8 @@ function VertProject(){
                 </div>
                 <div className="vert-card" id="card-3" onClick={handleClick}>
                     <div className="title">3</div>
-                    <div className="content">
-                    <div className="facts">
+                    <div className="vertContent">
+                    <div className="vertFacts">
                             <ul className="factsList">
                                 <li className="fact"><span className="firstWord">Description:</span> Code Quiz Game</li>
                                 <li className="fact"><span className="firstWord">Tech:</span> HTML/CSS/JS</li>
@@ -86,8 +86,8 @@ function VertProject(){
                 </div>
                 <div className="vert-card" id="card-4" onClick={handleClick}>
                     <div className="title">4</div>
-                    <div className="content">
-                    <div className="facts">
+                    <div className="vertContent">
+                    <div className="vertFacts">
                             <ul className="factsList">
                                 <li className="fact"><span className="firstWord">Description:</span> A single-page vanilla JS application displaying code snippets</li>
                                 <li className="fact"><span className="firstWord">Tech:</span> HTML/CSS/JS</li>
@@ -100,8 +100,8 @@ function VertProject(){
                 </div>
                 <div className="vert-card" id="card-5" onClick={handleClick}>
                     <div className="title">5</div>
-                    <div className="content">
-                    <div className="facts">
+                    <div className="vertContent">
+                    <div className="vertFacts">
                             <ul className="factsList">
                                 <li className="fact"><span className="firstWord">Description:</span> A single-page weather tracking app that uses API fetch requests</li>
                                 <li className="fact"><span className="firstWord">Tech:</span> HTML/CSS/JS/APIs</li>
@@ -114,8 +114,8 @@ function VertProject(){
                 </div>
                 <div className="vert-card" id="card-6" onClick={handleClick}>
                     <div className="title">6</div>
-                    <div className="content">
-                    <div className="facts">
+                    <div className="vertContent">
+                    <div className="vertFacts">
                             <ul className="factsList">
                                 <li className="fact"><span className="firstWord">Description:</span> Full-stack blog application that allows users to create blog posts and comment on others' posts</li>
                                 <li className="fact"><span className="firstWord">Tech:</span> HTML/CSS/JS/Express/Node.js/MySQL</li>

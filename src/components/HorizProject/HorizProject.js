@@ -40,7 +40,7 @@ function HorizProject(){
 }
 
     return(
-        <div className="projectContainer">
+        <div className="horizProjectContainer">
             <div className="horiz-menu">
                 <div className="horiz-card grow" id="card-1" onClick={handleClick}>
                     <div className="title hideNode">1</div>

@@ -1,4 +1,4 @@
-.projectContainer {
+.vertProjectContainer {
     width: 100%;
     min-height: 200px;
     height: calc(100vh - 150px);
@@ -20,8 +20,9 @@
 /* Vertical Menu */
 .vert-menu {
   height: 90%;
+  min-height: 90%;
   width: 95%;
-  min-height: 650px;
+  min-height: 500px;
   background-color: lightblue;
   display: flex;
   flex-direction: column;
@@ -34,18 +35,19 @@
 }
 
 .vert-card {
-  height: 50px;
+  height: 25px;
   width: 100%;
   background: black;
   color: white;
-  transition: all .25s ease-out;
+  transition: all .5s ease-in;
   flex-grow: 0;
   cursor: pointer;
+  position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  flex-grow: 1;
+  flex-grow: 0;
 }
 
 .vert-card:first-child {
@@ -60,18 +62,17 @@
 
 /* Card content and divs */
 
-.content {
+.vertContent {
   height: 100%;
   width: 100%;
   display: none;
   opacity: 0;
   transition: all .5s cubic-bezier(1,-0.02,1,.69);
-  position: relative;
   justify-content: flex-start;
   align-items: flex-start;
 }
 
-.facts {
+.vertFacts {
   width: 100%;
   padding: 5px;
   border-top-left-radius: 5px;
@@ -109,7 +110,7 @@
 /* utility css classes */
 
 .grow {
-  background: var(--faded-amaranth-red);
+  background: #f0f2f5;
   height: 100%;
   width: 100%;
   margin: 0 auto;
@@ -134,17 +135,15 @@
 }
 
 @media (width < 800px) {
-  .projectContainer{
+  .vertProjectContainer,
+  .horizProjectContainer {
     overflow-y: auto;
-  }
-
-  .facts {
-    bottom: 10px;
   }
 }
 
 @media (width < 650px){
-  .projectContainer{
+  .vertProjectContainer,
+  .horizProjectContainer {
     height: calc(100vh - 100px);
   }
 }

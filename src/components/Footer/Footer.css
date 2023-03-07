@@ -1,11 +1,13 @@
 footer {
     height: 50px;
     width: 100%;
-    background: var(--amaranth-red);
-    box-shadow: 0px -2px 5px gray;
+    background: black;
+    color: white;
+    box-shadow: 0px -2px 5px black;
+    border-top: 3px solid black;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 }
 

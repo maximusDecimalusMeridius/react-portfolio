@@ -1,10 +1,10 @@
-.projectContainer {
+.horizProjectContainer {
     width: 100%;
-    min-height: 400px;
+    min-height: 200px;
     height: calc(100vh - 150px);
     background-color: var(--backgroundColor);
     color: white;
-    padding: 10px 25px;
+    padding: 20px 25px;
     overflow: auto;
     display: flex;
     justify-content: center;
@@ -39,7 +39,7 @@
   width: 50px;
   background: black;
   color: white;
-  transition: all .5s cubic-bezier(1,.13,.32,.85);
+  transition: all .5s ease-in;
   flex-grow: 0;
   cursor: pointer;
   display: flex;
@@ -74,14 +74,6 @@
   align-items: flex-start;
 }
 
-.gh-link {
-
-}
-
-.live-link {
-  
-}
-
 .facts {
   width: 100%;
   height: fit-content;
@@ -106,6 +98,9 @@
   align-items: flex-start;
   white-space: nowrap;
   box-shadow: 2px 2px 4px black;
+  opacity: .8;
+  border: 3px solid black;
+  border-radius: 5px;
 }
 
 .fact{
@@ -113,6 +108,7 @@
   height: fit-content;
   text-align: left;
   white-space: pre-wrap;
+  opacity: 1;
 }
 
 .firstWord {
@@ -122,14 +118,16 @@
 .menuPic {
   max-width: 100%;
   object-fit: contain;
+  border-radius: 5px;
 }
 
 /* utility css classes */
 
 .grow {
-  background: var(--faded-amaranth-red);
+  background: #f0f2f5;
   height: 100%;
   width: 100%;
+  padding: 3px;
   margin: 0 auto;
   flex-grow: 1;
   cursor: default;
