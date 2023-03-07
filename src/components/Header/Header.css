@@ -1,9 +1,12 @@
 header {
     width: 100%;
-    height: 50px;
+    height: 100px;
+    padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: sticky;
+    background: var(--amaranth-red);
 }
 
 @media (width < 600px){

@@ -10,62 +10,12 @@
   font-family: 'Roboto Condensed', sans-serif;
 }
 
-:root{
---backgroundColor: #323232;
---secondaryBackgroundColor: #5D5C61;
-/* --secondaryBackgroundColor: rgb(58, 58, 58); */
---textBackgroundColor: rgb(243, 243, 243);
---headerBackgroundColor: rgba(0,0,0,.4);
-/* --tertiaryBackgroundColor: rgba(158, 157, 157, .5); */
---headerHeight: 150px;
---nameFontSize: 24px;
---titleFontColorA: white;
---jobDutiesHover: #938e94;
-}
-
-html{
-  background-color: var(--backgroundColor);
-}
-
-.noselect {
-  -webkit-touch-callout: none; /* iOS Safari */
-  -webkit-user-select: none; /* Safari */
-  -khtml-user-select: none; /* Konqueror HTML */
-  -moz-user-select: none; /* Old versions of Firefox */
-  -ms-user-select: none; /* Internet Explorer/Edge */
-  user-select: none; /* Non-prefixed version, currently
-                      supported by Chrome, Edge, Opera and Firefox */
-}
-
 /* Create a page break/underline */
 .lineBreak {
   width: 90%;
   height: 3px;
   background-color: white;
   margin: 0 auto 15px auto;
-}
-
-.page {
-    width: 100%;
-    min-height: 100vh;
-    max-height: fit-content;
-    min-width: 925px;
-}
-
-.top {
-    height: fit-content;
-    min-height: 100vh;
-    max-height: fit-content;
-    background-color: var(--backgroundColor);
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-    align-items: flex-start;
-    flex-flow: nowrap;  
-}
-
-.bottom {
-    background-color: var(--backgroundColor);
 }
 
 .resumeCard {
@@ -153,13 +103,6 @@ html{
     cursor: pointer;
 }
 
-.body {
-    height: 50%;
-    background-color: var(--backgroundColor);
-    color: white;
-    padding: 10px 25px;
-}
-
 .bodyTitle {
      margin-bottom: 3px;
 }
@@ -170,12 +113,14 @@ html{
 }
 
 .job {
-    padding: 10px;
+    width: 100%;
+    padding: 20px 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     background-color: var(--headerBackgroundColor);
     margin-top: 10px;
+    border: 5px solid white;
     border-radius: 5px;
     box-shadow: inset 0px 0px 5px rgb(56, 56, 56);
 }
@@ -184,7 +129,7 @@ html{
     height: fit-content;
     display: flex;
     flex-direction: row;
-    align-items: left;
+    align-items: center;
     justify-content: space-between;
     margin: 10px;
 }
@@ -275,15 +220,17 @@ html{
     margin-left: -2px;
 }
 
-.showAll{
+.toggle-button{
     width: 70px;
     height: 1.5em;
     border-radius: 3px;
     padding: 1px;
     font-size: 12px;
+    cursor: pointer;
 }
 
 .jobDuties {
+    height: 100%;
     display: flex;
 }
 
@@ -311,7 +258,7 @@ html{
 }
 
 .jobDuties > li:nth-child(even) {
-    background:rgb(255, 237, 237);
+    background:rgb(235, 235, 235);
 }
 
 .hideJobDuties {
@@ -334,4 +281,17 @@ html{
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+
+@media (width < 600px){
+    .companyDetails {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .jobHeader {
+        flex-direction: column;
+    }
 }

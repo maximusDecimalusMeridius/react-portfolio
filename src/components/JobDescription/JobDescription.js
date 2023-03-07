@@ -4,16 +4,16 @@ import "./JobDescription.css";
 export default function JobDescription(props) {
 
     function showAll(event){
-        let greatGrandParent = event.currentTarget.parentNode.parentNode.parentNode.parentNode;
+        let greatGreatGrandparent = event.currentTarget.parentNode.parentNode.parentNode.parentNode;
         
         if(event.target.value === "Show All"){
-            for(var i = 0; i < greatGrandParent.lastChild.children.length; i++){
-                greatGrandParent.lastChild.children[i].lastChild.classList.remove("hideJobDuties");
+            for(let i = 0; i < greatGreatGrandparent.lastChild.children.length; i++){
+                greatGreatGrandparent.lastChild.children[i].lastChild.classList.remove("hideJobDuties");
             }
             event.target.value = "Hide All";
         } else {
-            for(var i = 0; i < greatGrandParent.lastChild.children.length; i++){
-                greatGrandParent.lastChild.children[i].lastChild.classList.add("hideJobDuties");
+            for(let i = 0; i < greatGreatGrandparent.lastChild.children.length; i++){
+                greatGreatGrandparent.lastChild.children[i].lastChild.classList.add("hideJobDuties");
             }
             event.target.value = "Show All";
         } 
@@ -46,7 +46,7 @@ export default function JobDescription(props) {
             <div className="jobHeader">
                 <div><img className="companyLogo" src={props.logo} alt="test"/></div>
                 <div className="companyDetails">
-                    <span className="companyName">{props.title} <input type="button" className="showAll" onMouseDown={showAll} value="Show All"></input></span><span className="datesOfEmployment">{props.dates}</span>
+                    <span className="companyName">{props.title} <input type="button" className="toggle-button" onMouseDown={showAll} value="Show All"></input></span><span className="datesOfEmployment">{props.dates}</span>
                 </div>
             </div>
             <div className="lineBreak"></div>

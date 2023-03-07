@@ -1,6 +1,7 @@
 import React from "react";
 import JobDescription from "../JobDescription/JobDescription";
 import jobsArray from "../../data.js";
+import "./Resume.css"
 
 export default function Resume() {
      
@@ -18,7 +19,7 @@ export default function Resume() {
 console.log(jobsArray.title);
 
     return(
-        <div className="body">
+        <div className="jobContainer">
             {jobDescriptions}
         </div>
     )

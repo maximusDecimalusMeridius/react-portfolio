@@ -3,9 +3,9 @@ import "./Footer.css";
 
 function Footer(){
     return(
-        <div>
+        <footer>
             Trademark
-        </div>
+        </footer>
     )
 };
 

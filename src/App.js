@@ -12,11 +12,15 @@ function App() {
   function renderPage(){
     if(page === "about-me"){
       return(
-        <div>About-me</div>
+        <div className="aboutMeContainer">About-me</div>
       )
     } else if (page === "projects") {
       return(
         <Project />
+      )
+    } else if (page === "contact-me") {
+      return(
+        <div className="contactMeContainer">About-me</div>
       )
     } else if (page === "resume") {
       return(
