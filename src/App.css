@@ -7,7 +7,8 @@
   --nameFontSize: 24px;
   --titleFontColorA: white;
   --jobDutiesHover: #938e94;
-  --amaranth-red: #d32f39
+  --amaranth-red: rgb(211, 47, 57);
+  --faded-amaranth-red: rgb(211, 47, 57, .5);
 }
 
 /* CSS to prevent user selection of text */
@@ -28,12 +29,11 @@
 }
 html{
     background-color: var(--backgroundColor);
-    min-height: 400px;
 }
 
 img, video {
-    width: 100%;
     height: 100%;
+    width: 100%;
 }
 
 body {

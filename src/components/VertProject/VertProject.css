@@ -1,0 +1,144 @@
+.projectContainer {
+    width: 100%;
+    min-height: 400px;
+    height: calc(100vh - 150px);
+    background-color: var(--backgroundColor);
+    color: white;
+    padding: 10px 25px;
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    overflow: hidden;
+  }
+
+  /* General CSS */
+:root {
+  --border-radius: 5px;
+}
+
+/* Vertical Menu */
+.vert-menu {
+  height: 90%;
+  width: 95%;
+  min-height: 650px;
+  background-color: lightblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  position: relative;
+  border: 2px solid darkgray;
+  border-radius: var(--border-radius);
+  box-shadow: 4px 4px 6px rgba(255, 255, 255, .2);
+}
+
+.vert-card {
+  height: 50px;
+  width: 100%;
+  background: black;
+  color: white;
+  transition: all .25s ease-out;
+  flex-grow: 0;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.vert-card:first-child {
+  border-top-left-radius: var(--border-radius);
+  border-top-right-radius: var(--border-radius);
+}
+
+.vert-card:last-child {
+  border-bottom-left-radius: var(--border-radius);
+  border-bottom-right-radius: var(--border-radius);
+}
+
+/* Card content and divs */
+
+.content {
+  height: 100%;
+  width: 100%;
+  display: none;
+  opacity: 0;
+  transition: all .5s cubic-bezier(1,-0.02,1,.69);
+  position: relative;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.facts {
+  width: 100%;
+  padding: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.factsList {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  list-style-type: none;
+  background: var(--textBackgroundColor);
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  white-space: nowrap;
+  box-shadow: 2px 2px 4px black;
+}
+
+.firstWord {
+  font-weight: bold;
+}
+
+.menuPic {
+  max-width: 100%;
+  object-fit: contain;
+  object-position: top;
+}
+
+/* utility css classes */
+
+.grow {
+  background: var(--faded-amaranth-red);
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  flex-grow: 1;
+  cursor: default;
+}
+
+.hideNode {
+  display: none;
+}
+
+.showNode {
+  display: flex;
+}
+
+.fadeOutNode {
+  opacity: 0;
+}
+
+.fadeInNode {
+  opacity: 1;
+}
+
+@media (width < 800px) {
+  .projectContainer{
+    overflow-y: auto;
+  }
+
+  .facts {
+    bottom: 10%;
+  }
+}

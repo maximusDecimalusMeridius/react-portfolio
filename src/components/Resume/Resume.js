@@ -1,6 +1,6 @@
 import React from "react";
 import JobDescription from "../JobDescription/JobDescription";
-import jobsArray from "../../data.js";
+import jobsArray from "../../jobData.js";
 import "./Resume.css"
 
 export default function Resume() {
