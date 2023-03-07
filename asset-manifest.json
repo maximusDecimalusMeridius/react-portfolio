@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.2a5d4d13.css",
-    "main.js": "/react-portfolio/static/js/main.ca39504d.js",
+    "main.css": "/react-portfolio/static/css/main.071ed7a8.css",
+    "main.js": "/react-portfolio/static/js/main.a531f40e.js",
     "static/media/superhero-game.png": "/react-portfolio/static/media/superhero-game.51642304a1e1f72914e6.png",
     "static/media/roomease.png": "/react-portfolio/static/media/roomease.f6fa7559ba796290e281.png",
+    "static/media/profile-pic.jpg": "/react-portfolio/static/media/profile-pic.04d102fd29bbf430f59a.jpg",
     "static/media/code-snippets.png": "/react-portfolio/static/media/code-snippets.6f94315a939a31d466e0.png",
     "static/media/weather-tracker.png": "/react-portfolio/static/media/weather-tracker.c7b0c3d3034bb1b3e3f3.png",
     "static/media/fb-logo.png": "/react-portfolio/static/media/fb-logo.e0841b0bb21c72ba48ef.png",
@@ -16,11 +17,11 @@
     "static/media/awslogo.png": "/react-portfolio/static/media/awslogo.e48d58e0149af9254a51.png",
     "static/media/metalogo.png": "/react-portfolio/static/media/metalogo.46f4c2766ec9c6080998.png",
     "index.html": "/react-portfolio/index.html",
-    "main.2a5d4d13.css.map": "/react-portfolio/static/css/main.2a5d4d13.css.map",
-    "main.ca39504d.js.map": "/react-portfolio/static/js/main.ca39504d.js.map"
+    "main.071ed7a8.css.map": "/react-portfolio/static/css/main.071ed7a8.css.map",
+    "main.a531f40e.js.map": "/react-portfolio/static/js/main.a531f40e.js.map"
   },
   "entrypoints": [
-    "static/css/main.2a5d4d13.css",
-    "static/js/main.ca39504d.js"
+    "static/css/main.071ed7a8.css",
+    "static/js/main.a531f40e.js"
   ]
 }
