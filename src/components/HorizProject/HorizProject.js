@@ -2,6 +2,10 @@ import React, {useState} from 'react';
 import "./HorizProject.css";
 import roomeasePic from "../../assets/thumbs/roomease.png";
 import superheroPic from "../../assets/thumbs/superhero-game.png";
+import quizPic from "../../assets/thumbs/quiz-game.png";
+import codePic from "../../assets/thumbs/code-snippets.png";
+import weatherPic from "../../assets/thumbs/weather-tracker.png";
+import blogPic from "../../assets/thumbs/blog-app.png";
 
 function HorizProject(){
     
@@ -45,7 +49,7 @@ function HorizProject(){
                             <ul className="factsList">
                                 <li className="fact noselect"><span className="firstWord">Description:</span> Full-stack application to manage roommates, events, tasks, and "You-Owe-Mes"</li>
                                 <li className="fact noselect"><span className="firstWord">Tech:</span> HTML/CSS/JS/Express/Node.js/MySQL</li>
-                                <li className="fact noselect"><span className="firstWord">Learnings:</span> </li>
+                                <li className="fact noselect"><span className="firstWord">Learnings:</span> ERD development and implementation, signup/login auth, npm packages, project management</li>
                             </ul>
                         </div>
                         <img className="menuPic" src={roomeasePic} alt="project thumbnail"/>
@@ -56,9 +60,9 @@ function HorizProject(){
                     <div className="content">
                     <div className="facts">
                             <ul className="factsList">
-                                <li className="fact noselect"><span className="firstWord">Description:</span> </li>
+                                <li className="fact noselect"><span className="firstWord">Description:</span> test</li>
                                 <li className="fact noselect"><span className="firstWord">Tech:</span> HTML/CSS/JS/Express/Node.js/MySQL</li>
-                                <li className="fact noselect"><span className="firstWord">Learnings:</span> </li>
+                                <li className="fact noselect"><span className="firstWord">Learnings:</span> test</li>
                             </ul>
                         </div>
                         <img className="menuPic" src={superheroPic} alt="project thumbnail"/>
@@ -69,12 +73,12 @@ function HorizProject(){
                     <div className="content">
                     <div className="facts">
                             <ul className="factsList">
-                                <li className="fact noselect"><span className="firstWord">Description:</span> </li>
-                                <li className="fact noselect"><span className="firstWord">Tech:</span> HTML/CSS/JS/Express/Node.js/MySQL</li>
-                                <li className="fact noselect"><span className="firstWord">Learnings:</span> </li>
+                                <li className="fact noselect"><span className="firstWord">Description:</span> Code Quiz Game</li>
+                                <li className="fact noselect"><span className="firstWord">Tech:</span> HTML/CSS/JS</li>
+                                <li className="fact noselect"><span className="firstWord">Learnings:</span> localStorage, JS event listeners, managing data in arrays</li>
                             </ul>
                         </div>
-                        <img className="menuPic" src={superheroPic} alt="project thumbnail"/>
+                        <img className="menuPic" src={quizPic} alt="project thumbnail"/>
                     </div>
                 </div>
                 <div className="horiz-card" id="card-4" onClick={handleClick}>
@@ -82,12 +86,12 @@ function HorizProject(){
                     <div className="content">
                     <div className="facts">
                             <ul className="factsList">
-                                <li className="fact noselect"><span className="firstWord">Description:</span> </li>
-                                <li className="fact noselect"><span className="firstWord">Tech:</span> HTML/CSS/JS/Express/Node.js/MySQL</li>
-                                <li className="fact noselect"><span className="firstWord">Learnings:</span> </li>
+                                <li className="fact noselect"><span className="firstWord">Description:</span> A single-page vanilla JS application displaying code snippets</li>
+                                <li className="fact noselect"><span className="firstWord">Tech:</span> HTML/CSS/JS</li>
+                                <li className="fact noselect"><span className="firstWord">Learnings:</span> HTML layout, JS event listeners, CSS styling</li>
                             </ul>
                         </div>
-                        <img className="menuPic" src={superheroPic} alt="project thumbnail"/>
+                        <img className="menuPic" src={codePic} alt="project thumbnail"/>
                     </div>
                 </div>
                 <div className="horiz-card" id="card-5" onClick={handleClick}>
@@ -95,12 +99,12 @@ function HorizProject(){
                     <div className="content">
                     <div className="facts">
                             <ul className="factsList">
-                                <li className="fact noselect"><span className="firstWord">Description:</span> </li>
-                                <li className="fact noselect"><span className="firstWord">Tech:</span> HTML/CSS/JS/Express/Node.js/MySQL</li>
-                                <li className="fact noselect"><span className="firstWord">Learnings:</span> </li>
+                                <li className="fact noselect"><span className="firstWord">Description:</span> A single-page weather tracking app that uses API fetch requests</li>
+                                <li className="fact noselect"><span className="firstWord">Tech:</span> HTML/CSS/JS/APIs</li>
+                                <li className="fact noselect"><span className="firstWord">Learnings:</span> Mobile-first design, API fetch requests, page layout & formatting</li>
                             </ul>
                         </div>
-                        <img className="menuPic" src={superheroPic} alt="project thumbnail"/>
+                        <img className="menuPic" src={weatherPic} alt="project thumbnail"/>
                     </div>
                 </div>
                 <div className="horiz-card" id="card-6" onClick={handleClick}>
@@ -108,12 +112,12 @@ function HorizProject(){
                     <div className="content">
                     <div className="facts">
                             <ul className="factsList">
-                                <li className="fact noselect"><span className="firstWord">Description:</span> </li>
                                 <li className="fact noselect"><span className="firstWord">Tech:</span> HTML/CSS/JS/Express/Node.js/MySQL</li>
-                                <li className="fact noselect"><span className="firstWord">Learnings:</span> </li>
+                                <li className="fact noselect"><span className="firstWord">Description:</span> Full-stack blog application that allows users to create blog posts and comment on others' posts</li>
+                                <li className="fact noselect"><span className="firstWord">Learnings:</span> ERD design and joins, MVC model & handlebars, sessions, sign-up and login auth</li>
                             </ul>
                         </div>
-                        <img className="menuPic" src={superheroPic} alt="project thumbnail"/>
+                        <img className="menuPic" src={blogPic} alt="project thumbnail"/>
                     </div>
                 </div>
             </div>
