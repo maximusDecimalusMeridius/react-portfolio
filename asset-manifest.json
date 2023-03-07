@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.2a5d4d13.css",
+    "main.js": "/react-gh-pages/static/js/main.f71aa279.js",
+    "static/media/superhero-game.png": "/react-gh-pages/static/media/superhero-game.51642304a1e1f72914e6.png",
+    "static/media/roomease.png": "/react-gh-pages/static/media/roomease.f6fa7559ba796290e281.png",
+    "static/media/code-snippets.png": "/react-gh-pages/static/media/code-snippets.6f94315a939a31d466e0.png",
+    "static/media/weather-tracker.png": "/react-gh-pages/static/media/weather-tracker.c7b0c3d3034bb1b3e3f3.png",
+    "static/media/fb-logo.png": "/react-gh-pages/static/media/fb-logo.e0841b0bb21c72ba48ef.png",
+    "static/media/blog-app.png": "/react-gh-pages/static/media/blog-app.721138635b2e647c8c1c.png",
+    "static/media/quiz-game.png": "/react-gh-pages/static/media/quiz-game.16b18599be6473ea1562.png",
+    "static/media/aeroteklogo.png": "/react-gh-pages/static/media/aeroteklogo.2a5257494ed07e2070cd.png",
+    "static/media/github-logo.png": "/react-gh-pages/static/media/github-logo.553c66159c5672f25df6.png",
+    "static/media/mslogo.png": "/react-gh-pages/static/media/mslogo.51ef36f374ed18a7304a.png",
+    "static/media/ccclogo.png": "/react-gh-pages/static/media/ccclogo.317b6ff45d22fda0a9b7.png",
+    "static/media/awslogo.png": "/react-gh-pages/static/media/awslogo.e48d58e0149af9254a51.png",
+    "static/media/metalogo.png": "/react-gh-pages/static/media/metalogo.46f4c2766ec9c6080998.png",
+    "index.html": "/react-gh-pages/index.html",
+    "main.2a5d4d13.css.map": "/react-gh-pages/static/css/main.2a5d4d13.css.map",
+    "main.f71aa279.js.map": "/react-gh-pages/static/js/main.f71aa279.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2a5d4d13.css",
+    "static/js/main.f71aa279.js"
+  ]
+}
