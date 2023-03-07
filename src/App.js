@@ -4,6 +4,7 @@ import Footer from "./components/Footer/Footer";
 import Resume from "./components/Resume/Resume";
 import HorizProject from "./components/HorizProject/HorizProject";
 import VertProject from "./components/VertProject/VertProject";
+import profilePic from "./assets/profile-pic.jpg"
 import './App.css';
 
 function App() {
@@ -23,7 +24,6 @@ function App() {
 
   function submitMessage(event) {
     event.preventDefault();
-    console.log(event);
     alert("Message sent!")
     document.getElementById("email").value = "";
     document.getElementById("message").value = "";
@@ -33,7 +33,9 @@ function App() {
     if(page === "about-me"){
       return(
         <div className="aboutMeContainer">
-          <div className="profilePicture"></div>
+          <div className="profilePicture">
+            <img src={profilePic} alt="my face with a VR headset" />
+          </div>
           <div className="aboutMeContent">
             <h2>About Me</h2>
               <div className="slider"></div>
@@ -64,11 +66,11 @@ function App() {
         <div className="contactMeContainer">
           <form className="contactForm" onSubmit={submitMessage}>
             <div className="formTopRow">
-              <label for="email">Email:</label>
+              <label htmlFor="email">Email:</label>
               <input type="email" name="email" id="email" placeholder="youremail@address.com"></input>
             </div>
             <div className="formBottomRow">
-              <label for="message">Message:</label>
+              <label htmlFor="message">Message:</label>
               <textarea name="message" id="message" placeholder="Please leave a message!"></textarea>
             </div>
             <button>Submit</button>

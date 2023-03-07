@@ -60,9 +60,9 @@ function HorizProject(){
                     <div className="content">
                     <div className="facts">
                             <ul className="factsList">
-                                <li className="fact noselect"><span className="firstWord">Description:</span> test</li>
+                                <li className="fact noselect"><span className="firstWord">Description:</span> Superhero multi-track card game</li>
                                 <li className="fact noselect"><span className="firstWord">Tech:</span> HTML/CSS/JS/Express/Node.js/MySQL</li>
-                                <li className="fact noselect"><span className="firstWord">Learnings:</span> test</li>
+                                <li className="fact noselect"><span className="firstWord">Learnings:</span> API fetch requests, local storage, game design, event listeners & animations</li>
                             </ul>
                         </div>
                         <img className="menuPic" src={superheroPic} alt="project thumbnail"/>

@@ -10,6 +10,10 @@ header {
     box-shadow: 0px 2px 5px gray;
 }
 
+.header-title {
+  font-style: italic;
+}
+
 @media (width < 600px){
     header {
       flex-direction: column;

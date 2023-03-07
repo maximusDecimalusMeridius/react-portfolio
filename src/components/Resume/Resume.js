@@ -16,8 +16,6 @@ export default function Resume() {
         )
     })
 
-console.log(jobsArray.title);
-
     return(
         <div className="jobContainer">
             {jobDescriptions}
