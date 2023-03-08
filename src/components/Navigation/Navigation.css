@@ -15,7 +15,24 @@
     transition: all .1s ease-out;
 }
 
+@media (height < 350px){
+    
+    .navbar {
+        justify-content: flex-end;
+    }
+    
+    .navbar-item {
+        font-size: 12px;
+        width: fit-content;
+        margin-left: 2px;
+    }
+}
+
 @media (width < 650px){
+    .navbar {
+        justify-content: center;
+    }
+    
     .navbar-item {
         font-size: 12px;
         width: fit-content;

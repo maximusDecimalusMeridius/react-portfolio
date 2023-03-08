@@ -176,3 +176,8 @@ body {
   }
 }
 
+@media (height < 400px){
+  .aboutMeContainer {
+    height: calc(100vh - 100px);
+  }
+}
