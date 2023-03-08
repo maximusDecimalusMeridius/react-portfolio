@@ -36,7 +36,8 @@
 
 .horiz-card {
   height: 100%;
-  width: 50px;
+  width: 40px;
+  padding: 3px;
   background: black;
   color: white;
   transition: all .5s ease-in;
@@ -47,6 +48,11 @@
   justify-content: center;
   align-items: center;
   flex-grow: 1;
+  border-right: 2px solid #323232;
+}
+
+.horiz-card:last-child {
+  border-right: 0px solid #323232;
 }
 
 .horiz-card:first-child {
@@ -141,7 +147,6 @@
   background: #f0f2f5;
   height: 100%;
   width: 100%;
-  padding: 3px;
   margin: 0 auto;
   flex-grow: 1;
   cursor: default;

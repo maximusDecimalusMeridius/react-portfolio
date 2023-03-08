@@ -19,10 +19,9 @@
 
 /* Vertical Menu */
 .vert-menu {
-  height: 90%;
-  min-height: 90%;
+  height: fit-content;
   width: 95%;
-  min-height: 500px;
+  min-height: 700px;
   background-color: lightblue;
   display: flex;
   flex-direction: column;
@@ -32,15 +31,17 @@
   border: 2px solid darkgray;
   border-radius: var(--border-radius);
   box-shadow: 4px 4px 6px rgba(255, 255, 255, .2);
+  transition: all .1s linear;
 }
 
 .vert-card {
-  height: 25px;
+  height: 40px;
   width: 100%;
+  padding: 3px;
   background: black;
   color: white;
   transition: all .5s ease-in;
-  flex-grow: 0;
+  flex-grow: 1;
   cursor: pointer;
   position: relative;
   display: flex;
@@ -48,6 +49,11 @@
   justify-content: flex-start;
   align-items: center;
   flex-grow: 0;
+  border-bottom: 2px solid #323232;
+}
+
+.vert-card:last-child {
+  border-bottom: 0px solid #323232;
 }
 
 .vert-card:first-child {
