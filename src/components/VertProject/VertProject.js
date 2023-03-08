@@ -46,7 +46,7 @@ function VertProject(){
                     <div className="title hideNode">1</div>
                     <div className="vertContent showNode fadeInNode">
                         <div className="vertFacts">
-                            <ul className="factsList">
+                            <ul className="vertFactsList">
                                 <li className="fact"><span className="firstWord">Description:</span> Full-stack application to manage roommates, events, tasks, and "You-Owe-Mes"</li>
                                 <li className="fact"><span className="firstWord">Tech:</span> HTML/CSS/JS/Express/Node.js/MySQL</li>
                                 <li className="fact"><span className="firstWord">Learnings:</span> ERD development and implementation, signup/login auth, npm packages, project management</li>
@@ -60,7 +60,7 @@ function VertProject(){
                     <div className="title">2</div>
                     <div className="vertContent">
                     <div className="vertFacts">
-                            <ul className="factsList">
+                            <ul className="vertFactsList">
                                 <li className="fact"><span className="firstWord">Description:</span> Superhero multi-track card game with randomization and infant AI</li>
                                 <li className="fact"><span className="firstWord">Tech:</span> HTML/CSS/JS/Materialize CSS & jQuery</li>
                                 <li className="fact"><span className="firstWord">Learnings:</span> API fetch requests, local storage, game design, event listeners & animations</li>
@@ -74,7 +74,7 @@ function VertProject(){
                     <div className="title">3</div>
                     <div className="vertContent">
                     <div className="vertFacts">
-                            <ul className="factsList">
+                            <ul className="vertFactsList">
                                 <li className="fact"><span className="firstWord">Description:</span> Code Quiz Game</li>
                                 <li className="fact"><span className="firstWord">Tech:</span> HTML/CSS/JS</li>
                                 <li className="fact"><span className="firstWord">Learnings:</span> localStorage, JS event listeners, managing data in arrays</li>
@@ -88,7 +88,7 @@ function VertProject(){
                     <div className="title">4</div>
                     <div className="vertContent">
                     <div className="vertFacts">
-                            <ul className="factsList">
+                            <ul className="vertFactsList">
                                 <li className="fact"><span className="firstWord">Description:</span> A single-page vanilla JS application displaying code snippets</li>
                                 <li className="fact"><span className="firstWord">Tech:</span> HTML/CSS/JS</li>
                                 <li className="fact"><span className="firstWord">Learnings:</span> HTML layout, JS event listeners, CSS styling</li>
@@ -102,7 +102,7 @@ function VertProject(){
                     <div className="title">5</div>
                     <div className="vertContent">
                     <div className="vertFacts">
-                            <ul className="factsList">
+                            <ul className="vertFactsList">
                                 <li className="fact"><span className="firstWord">Description:</span> A single-page weather tracking app that uses API fetch requests</li>
                                 <li className="fact"><span className="firstWord">Tech:</span> HTML/CSS/JS/APIs</li>
                                 <li className="fact"><span className="firstWord">Learnings:</span> Mobile-first design, API fetch requests, page layout & formatting</li>
@@ -116,7 +116,7 @@ function VertProject(){
                     <div className="title">6</div>
                     <div className="vertContent">
                     <div className="vertFacts">
-                            <ul className="factsList">
+                            <ul className="vertFactsList">
                                 <li className="fact"><span className="firstWord">Description:</span> Full-stack blog application that allows users to create blog posts and comment on others' posts</li>
                                 <li className="fact"><span className="firstWord">Tech:</span> HTML/CSS/JS/Express/Node.js/MySQL</li>
                                 <li className="fact"><span className="firstWord">Learnings:</span> ERD design and joins, MVC model & handlebars, sessions, sign-up and login auth</li>
