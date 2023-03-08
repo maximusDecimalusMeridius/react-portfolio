@@ -23,3 +23,9 @@
         height: calc(100vh - 100px);
     }
 }
+
+@media (height < 400px){
+    .jobContainer {
+      height: calc(100vh - 100px);
+    }
+}

@@ -1,6 +1,6 @@
 .horizProjectContainer {
     width: 100%;
-    min-height: 200px;
+    min-height: 300px;
     height: calc(100vh - 150px);
     background-color: var(--backgroundColor);
     color: white;

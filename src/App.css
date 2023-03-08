@@ -180,4 +180,8 @@ body {
   .aboutMeContainer {
     height: calc(100vh - 100px);
   }
+
+  .contactMeContainer {
+    height: calc(100vh - 100px);
+  }
 }

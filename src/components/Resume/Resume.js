@@ -2,7 +2,7 @@ import React from "react";
 import JobDescription from "../JobDescription/JobDescription";
 import jobsArray from "../../jobData.js";
 import "./Resume.css"
-import resume from "./andys-resume.pdf";
+import resume from "../../assets/andys-resume.pdf";
 
 export default function Resume() {
     
