@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.8e573901.css",
-    "main.js": "/react-portfolio/static/js/main.0d3be74c.js",
+    "main.css": "/react-portfolio/static/css/main.ff1eeb4f.css",
+    "main.js": "/react-portfolio/static/js/main.2c8cbd04.js",
     "static/media/superhero-game.png": "/react-portfolio/static/media/superhero-game.51642304a1e1f72914e6.png",
     "static/media/roomease.png": "/react-portfolio/static/media/roomease.f6fa7559ba796290e281.png",
     "static/media/andys-resume.pdf": "/react-portfolio/static/media/andys-resume.05a39de5fea90fb880d9.pdf",
@@ -18,11 +18,11 @@
     "static/media/awslogo.png": "/react-portfolio/static/media/awslogo.e48d58e0149af9254a51.png",
     "static/media/metalogo.png": "/react-portfolio/static/media/metalogo.46f4c2766ec9c6080998.png",
     "index.html": "/react-portfolio/index.html",
-    "main.8e573901.css.map": "/react-portfolio/static/css/main.8e573901.css.map",
-    "main.0d3be74c.js.map": "/react-portfolio/static/js/main.0d3be74c.js.map"
+    "main.ff1eeb4f.css.map": "/react-portfolio/static/css/main.ff1eeb4f.css.map",
+    "main.2c8cbd04.js.map": "/react-portfolio/static/js/main.2c8cbd04.js.map"
   },
   "entrypoints": [
-    "static/css/main.8e573901.css",
-    "static/js/main.0d3be74c.js"
+    "static/css/main.ff1eeb4f.css",
+    "static/js/main.2c8cbd04.js"
   ]
 }
