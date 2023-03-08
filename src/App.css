@@ -36,11 +36,12 @@ img, video {
     width: 100%;
 }
 
+/* Set body equal to 100vh and set overflow to auto so smaller screens can view content */
 body {
-    height: 600px;
+    height: 100vh;
     background-color: var(--backgroundColor);
     color: white;
-    overflow: hidden;
+    overflow: auto;
 }
 
 .App {
@@ -51,7 +52,6 @@ body {
   justify-content: center;
   align-items: center;
   position: relative;
-  overflow: hidden;
 }
 
 .aboutMeContainer {
