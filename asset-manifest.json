@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.07e0a7b8.css",
-    "main.js": "/react-portfolio/static/js/main.22030bd5.js",
+    "main.js": "/react-portfolio/static/js/main.4b304f07.js",
     "static/media/superhero-game.png": "/react-portfolio/static/media/superhero-game.51642304a1e1f72914e6.png",
     "static/media/roomease.png": "/react-portfolio/static/media/roomease.c3ce84d18ba840a0569c.png",
     "static/media/andys-resume.pdf": "/react-portfolio/static/media/andys-resume.05a39de5fea90fb880d9.pdf",
@@ -19,10 +19,10 @@
     "static/media/metalogo.png": "/react-portfolio/static/media/metalogo.46f4c2766ec9c6080998.png",
     "index.html": "/react-portfolio/index.html",
     "main.07e0a7b8.css.map": "/react-portfolio/static/css/main.07e0a7b8.css.map",
-    "main.22030bd5.js.map": "/react-portfolio/static/js/main.22030bd5.js.map"
+    "main.4b304f07.js.map": "/react-portfolio/static/js/main.4b304f07.js.map"
   },
   "entrypoints": [
     "static/css/main.07e0a7b8.css",
-    "static/js/main.22030bd5.js"
+    "static/js/main.4b304f07.js"
   ]
 }
