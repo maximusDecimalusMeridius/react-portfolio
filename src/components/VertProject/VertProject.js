@@ -5,7 +5,6 @@ import projectData from "../../projectData.js";
 function VertProject(){
     
     const [lastClicked, setLastClicked] = useState("card-1");
-    const [cardCount, setCardCount] = useState(0);
 
     function handleClick (event) {
         if(event.target.id.includes("card") && !event.target.classList.contains("grow")){
