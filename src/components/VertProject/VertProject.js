@@ -35,7 +35,7 @@ function VertProject(){
 }
 
 const projectCards = projectData.map((project, index) => 
-<div className="vert-card" id={`card-${index + 1}`} onClick={handleClick}>
+<div className="vert-card" id={`card-${index + 1}`} key={index} onClick={handleClick}>
             <div className="title" id="title">{`${index + 1}`}</div>
             <div className="vertContent" id="vertContent">
                 <div className="vertFacts">

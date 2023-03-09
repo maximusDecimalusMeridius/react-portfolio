@@ -35,7 +35,7 @@ function HorizProject(){
 }
 
 const projectCards = projectData.map((project, index) => 
-<div className="horiz-card" id={`card-${index + 1}`} onClick={handleClick}>
+<div className="horiz-card" id={`card-${index + 1}`} key={index} onClick={handleClick}>
             <div className="title" id="title">{`${index + 1}`}</div>
             <div className="content" id="vertContent">
                 <div className="facts">
